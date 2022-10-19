@@ -1,20 +1,23 @@
 {
     "name": "I2CSoilMoistureSensor",
+    "version": "1.1.5",
     "keywords": "Soil, Capacitance, Light, Temperature",
-
-    "authors":
-    {
-        "name": "Ingo Fischer",
-        "email": "ingo@fischer-ka.de",
-        "url": "https://github.com/Apollon77/I2CSoilMoistureSensor"
-    },
-
+    "authors": [
+        {
+            "name": "Ingo Fischer",
+            "email": "ingo@fischer-ka.de",
+            "url": "https://github.com/Apollon77/I2CSoilMoistureSensor"
+        },
+        {
+            "name": "Albertas Mickėnas",
+            "email": "albertas@technarium.lt",
+            "url": "https://catnip.lt"
+        }
+    ],
     "description": "Provide access to all functions of the I2C Soil Moisture Sensor from Catnip Electronics.",
-    "repository":
-    {
+    "repository": {
         "type": "git",
-        "url": "https://github.com/Apollon77/I2CSoilMoistureSensor.git"
+        "url": "git@github.com:Miceuz/I2CSoilMoistureSensor.git"
     },
-    "frameworks": "arduino",
-    "platforms": "atmelavr"
+    "frameworks": "arduino"
 }
